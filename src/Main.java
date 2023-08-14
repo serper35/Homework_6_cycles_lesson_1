@@ -93,7 +93,8 @@ public class Main {
             String result = String.format("%.3f",totalAccumulation);
             System.out.println("Месяц - " + i + ", сумма накоплений равна " + result +" рублей.");
         }
-        System.out.println("Общая сумма накоплений равна " + totalAccumulation + ".");
+        String result = String.format("%.3f",totalAccumulation);
+        System.out.println("Общая сумма накоплений равна " + result + " рублей.");
     }
 
     public static void task10() {
